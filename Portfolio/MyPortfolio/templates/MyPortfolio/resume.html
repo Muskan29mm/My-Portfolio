@@ -1,0 +1,20 @@
+{% extends 'MyPortfolio/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/resume.css' %}">
+
+<main class="resume-main">
+    <h1 class="resume-title">My Resume</h1>
+  <div class="resume-card">
+      <p><b>Click below to view or download My Resume:</b></p>
+   <a href="{% static 'resume/Resume.pdf' %}" class="resume-button" target="_blank" rel="noopener noreferrer">
+            View Resume
+        </a>
+        <a href="{% static 'resume/Resume.pdf' %}" class="resume-button" download>
+            Download Resume
+        </a>
+  </div>
+</main>
+
+{% endblock %}
+

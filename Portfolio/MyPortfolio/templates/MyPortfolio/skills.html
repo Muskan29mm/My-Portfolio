@@ -1,0 +1,43 @@
+{% extends 'MyPortfolio/base.html' %}
+{% block content %}
+{% load static %}
+<main class="main-content">
+    <h1>Skills</h1>
+     <div class="skill-section">
+<!--        <h2>Programming Languages</h2>-->
+        <table class="skill-table">
+            <tr>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Python.png' %}" class="skill-icon" alt="Python Icon"><span class="skill-label">Python</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Machine_learning.jpg' %}" class="skill-icon" alt="Machine Learning Icon"><span class="skill-label">Machine Learning</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Artificial Intelligence.jpg' %}" class="skill-icon" alt="Artificial Intelligence Icon"><span class="skill-label">Artificial Intelligence</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Natural_language_processing.png' %}" class="skill-icon" alt="Natural Language Processing Icon"><span class="skill-label">Natural Language Processing</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Data_visualization.jpeg' %}" class="skill-icon" alt="Data Visualization Icon"><span class="skill-label">Data Visualization</span></div></td>
+
+            </tr>
+            <tr>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/R.png' %}" class="skill-icon" alt="R Icon"><span class="skill-label">R</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/django-framework.jpg' %}" class="skill-icon" alt="Django Icon"><span class="skill-label">Django</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/java.png' %}" class="skill-icon" alt="Java Icon"><span class="skill-label">Java</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Visual_Basic.png' %}" class="skill-icon" alt="Visual Basic Icon"><span class="skill-label">Visual Basic</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/jQuery.png' %}" class="skill-icon" alt="Jquery Icon"><span class="skill-label">JQuery</span></div></td>
+
+            </tr>
+            <tr>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/HTML_CSS.jpeg' %}" class="skill-icon" alt="HTML CSS Icon"><span class="skill-label">HTML & CSS</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/c.png' %}" class="skill-icon" alt="C Icon"><span class="skill-label">C</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/c++.png' %}" class="skill-icon" alt="C++ Icon"><span class="skill-label">C++</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Javascript.png' %}" class="skill-icon" alt="Javascript Icon"><span class="skill-label">Javascript</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/SQL.png' %}" class="skill-icon" alt="SQL Icon"><span class="skill-label">SQL</span></div></td>
+            </tr>
+            <tr>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Numpy.png' %}" class="skill-icon" alt="Numpy Icon"><span class="skill-label">Numpy</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/pandas.png' %}" class="skill-icon" alt="Pandas Icon"><span class="skill-label">Pandas</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Matplotlib.png' %}" class="skill-icon" alt="Matplotlib Icon"><span class="skill-label">Matplotlib</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Tableau.png' %}" class="skill-icon" alt="Tableau Icon"><span class="skill-label">Tableau</span></div></td>
+                <td class="hover-effect"><div class="skill-box"><img src="{% static 'icons/Streamlit.png' %}" class="skill-icon" alt="Streamlit Icon"><span class="skill-label">Streamlit</span></div></td>
+            </tr>
+        </table>
+    </div>
+</main>
+{% endblock %}
+
